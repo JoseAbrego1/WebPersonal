@@ -1,0 +1,244 @@
+
+@import url(https://www.dafont.com/es/search.php?q=Anaphora);
+.banner{
+    align-items: center;
+    justify-content: center;
+}
+
+.header{
+    display:inline-block;
+    width: 100%;
+}
+
+
+.logo{
+    width: 90px;
+    height: 90px;
+    margin-left: 40px;
+    margin-right: 60px;
+}
+.color {
+    background-color: black;
+}
+
+.separador{
+    padding-right: 7%;
+    padding-bottom: 7%;
+    padding-top: 7%;
+}
+
+.imagen{
+    width: 350px;
+    
+}
+.centrar-izquierda{
+    display: flex;
+    align-items:flex-start;
+    flex-direction: column;
+    margin-right: 10%;
+    margin-left: 5%;
+    justify-content: center;
+    
+}
+/* Estilo para el footer */
+/* Estilo para el footer */
+.site-footer {
+    background-color: #26263e;
+    color: #f6f4f4;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+/* Estilo para el contenido dentro del footer */
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto; /* Añade margen automático a los lados para centrar el contenido horizontalmente */
+}
+
+/* Estilo para los enlaces en el footer */
+.site-footer a {
+    color: #f3f2f2;
+    text-decoration: none;
+}
+
+/* Estilo para el contenido de los div en el footer */
+.footer-content .row {
+    text-align: center; /* Alinea el texto al centro en las filas del footer */
+}
+
+/* Aplica margen a los elementos en el footer */
+.footer-content .col {
+    margin-bottom: 20px; /* Añade margen inferior a los elementos del footer para separarlos */
+}
+
+ul {
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    margin-bottom: 15px;
+}
+
+.footer {
+    background-color: #26263e;
+    color: #fff;
+    padding: 20px 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.enlaces {
+    text-decoration: none;
+    
+}
+
+.footer {
+    position: relative;
+    background-color: #26263e;
+    color: #fff;
+    padding: 20px 0;
+
+
+}
+
+
+
+.pie{
+    background-color: #0f0f1a;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+}
+
+.fuente{
+    text-align: center;
+}
+
+.borde{
+  border-right: 4px solid #ccc; /* Grosor y color del borde */
+  text-align: center;
+}
+/* Estilo para la línea divisoria vertical */
+
+
+
+.menu{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.menu .card{
+    position: relative;
+    width: 250px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 330px;
+    border-radius: 10px;
+    cursor: pointer;
+    text-align: center;
+    transition: 0.4s;
+    margin-top: 2px;
+}
+
+.menu .card:hover {
+    transform: translateY(-21px);
+    box-shadow: 0 15px 35px black;
+}
+
+.menu .card.before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: -50;
+    width: 100%;
+    background-color: rgb(41, 37, 93);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.porcent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.porcent .number h2{
+    color: black;
+    font-weight: 600;
+    font-size: 35px;
+    transition: 0.5s;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.card:hover .porcent .number h2{
+    color: black;
+    font-size: 60px;
+}
+
+
+.text {
+    position: absolute;
+    color: #0f0f1a;
+    margin-top: 250px;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+
+svg{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    transform: rotate(-85deg)!important;
+}
+
+svg circle{
+    width: 100%;
+    height: 100%;
+    fill:none;
+    stroke: rgb(0, 115, 255);
+    stroke-width: 10;
+    stroke-linecap: round !important;
+    transform: translate(5px,5px);
+}
+
+.card:nth-child(1) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 10)/100);
+    stroke: rgb(255,0,0);
+}
+.card:nth-child(2) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 20)/100);
+    stroke: rgb(255,0,0);
+}
+.card:nth-child(3) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 30)/100);
+    stroke: rgb(255,0,0);
+}
+.card:nth-child(4) svg circle:nth-child(2){
+    stroke-dashoffset: calc(440 - (440 * 40)/100);
+    stroke: rgb(255,0,0);
+}
+
+
+
