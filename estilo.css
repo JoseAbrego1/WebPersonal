@@ -1,5 +1,5 @@
 
-@import url(https://www.dafont.com/es/search.php?q=Anaphora);
+@import url(https://fonts.adobe.com/fonts?browse_mode=default&cc=true&hide_images=true&languages=es&locale=es-ES&max_styles=26&min_styles=1&promoid=KRUVR&tag=clean);
 
 .logo{
     width: 80px;
@@ -12,6 +12,8 @@
     background-color: black;
 }
 
+
+
 ul, a, li{
     list-style-type: none;
     text-decoration: none;
@@ -21,7 +23,7 @@ ul, a, li{
 
 .footer {
     position: relative;
-    background-color: #26263e;
+    background-color: #111112;
     color: #fff;
     padding: 20px 0;
 
@@ -29,7 +31,7 @@ ul, a, li{
 }
 
 .pie{
-    background-color: #0f0f1a;
+    background-color: #111112;;
     color: #fff;
     text-align: center;
     padding: 15px;
@@ -38,8 +40,8 @@ ul, a, li{
 
 
 .borde{
-  border-right: 4px solid #ccc; /* Grosor y color del borde */
-  text-align: center;
+  border-right: 1px solid #f2eeee; /* Grosor y color del borde */
+  
 }
 /* Estilo para la línea divisoria vertical */
 
